@@ -7,13 +7,17 @@
     src: url(Gilroy-ExtraBold.otf);
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     background-color: black;
     min-height: 90vh;
-    margin: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    margin: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
     padding-top: env(safe-area-inset-top);
     overflow-x: hidden;
     font-family: Gilroy_Bold;
@@ -25,7 +29,7 @@ body{
     width: 90vw;
     min-height: 100vh;
     position: relative;
-    padding-left: 70px;
+    padding-left: 7rem;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -35,7 +39,7 @@ body{
 .header{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: flex;
 }
 .one{
@@ -46,7 +50,7 @@ body{
 .one img{
     width: 28%;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,13 +72,13 @@ body{
     justify-content: center;
     align-self: center;
     color: white;
-    padding: 10px 1px;
+    padding: 1rem 0.1rem;
     background-color: black;
     cursor: pointer;
-    font-size: 18px;
-    border: 1px solid white;
-    border-radius: 25px;
-    margin: 12px 20px;
+    font-size: 1.8rem;
+    border: 0.1rem solid white;
+    border-radius: 2.5rem;
+    margin: 1.2rem 2rem;
 }
 
 .front{
@@ -82,10 +86,10 @@ body{
     text-align: center;
 }
 .front h1{
-    font-size: 6em;
+    font-size: 80px;
 }
 .front h3{
-    font-size: 2em;
+    font-size: 30px;
 }
 .bottom_button{
     display: inline-flex;
@@ -95,22 +99,22 @@ body{
     position: relative;
     pointer-events: auto;
     text-align: center;
-    padding: 20px 65px;
+    padding: 2rem 6.5rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    border-radius: 40px;
+    letter-spacing: 0.04rem;
+    line-height: 3rem;
+    border-radius: 4rem;
     cursor: pointer;
-    margin-top: 58px;
+    margin-top: 5.8rem;
 }
 .first_scroll{
-    padding-left: 120px;
+    padding-left: 12rem;
     background-color: black;
     width: 90vw;
-    height: 800px;
+    height: 80rem;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -119,7 +123,7 @@ body{
 }
 .first_scroll img{
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
     left: 50%;
 }
 .image_one{
@@ -153,38 +157,37 @@ body{
     width: 75vw;
     min-height: 100vh;
     position: relative;
-    padding: 240px 200px 10px;
+    padding: 24rem 20rem 1rem;
     background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/deserve-more-bg.jpg);
-    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     display: block;
 }
 .second_scroll h2{
-    font-size: 100px;
+    font-size: 10rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -3.15px;
-    line-height: 96px;
+    letter-spacing: -0.315rem;
+    line-height: 9.6rem;
     white-space: pre-line;
     opacity: 0.9;
 }
 .second_scroll h5{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -0.2px;
-    line-height: 38px;
+    letter-spacing: -0.02rem;
+    line-height: 3.8rem;
     white-space: pre-line;
-    max-width: 630px;
+    max-width: 63rem;
 }
 .second_scroll h6{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0px;
-    line-height: 28px;
+    letter-spacing: 0rem;
+    line-height: 2.8rem;
     white-space: pre-line;
-    max-width: 630px;
-    margin-bottom: 0px;
+    max-width: 63rem;
+    margin-bottom: 0rem;
 }
 .third_button{
     display: inline-flex;
@@ -193,31 +196,31 @@ body{
     position: relative;
     pointer-events: auto;
     text-align: center;
-    padding: 20px 65px;
+    padding: 2rem 6.5rem;
     border-color: white;
     background-color: white;
     color: black;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    border-radius: 40px;
+    letter-spacing: 0.04rem;
+    line-height: 3rem;
+    border-radius: 4rem;
     cursor: pointer;
-    margin-top: 58px;
+    margin-top: 5.8rem;
 }
 .third_scroll{
     background-color: rgb(248, 248, 248);
     color: rgb(33, 36, 38);
     width: 90vw;
     position: relative;
-    padding: 60px 200px;
+    padding: 6rem 20rem;
     display: block;
 }
 .third_scroll h5{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0px;
-    line-height: 38px;
+    letter-spacing: 0rem;
+    line-height: 3.8rem;
     white-space: pre-line;
 }
 .brand_logo{
@@ -225,15 +228,15 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    height: 50px;
+    height: 5rem;
     width: 90%;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .fourth_scroll{
     color: rgb(248, 248, 248);
     width: 82%;
     position: relative;
-    padding: 240px 200px 180px;
+    padding: 24rem 20rem 18rem;
     background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/money-matters-bg.jpg);
     background-size: 100%;
     display: flex;
@@ -242,34 +245,34 @@ body{
     justify-content: space-between;
 }
 .text_one{
-    font-size: 100px;
+    font-size: 10rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -3.15px;
-    line-height: 96px;
+    letter-spacing: -0.315rem;
+    line-height: 9.6rem;
     white-space: pre-line;
     opacity: 0.9;
     display: block;
     box-sizing: border-box;
 }
 .text_two{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -0.2px;
-    line-height: 38px;
+    letter-spacing: -0.02rem;
+    line-height: 3.8rem;
     white-space: pre-line;
-    max-width: 630px;
-    margin-top: 16px;
+    max-width: 63rem;
+    margin-top: 1.6rem;
     display: block;
     box-sizing: border-box;
 }
 .text_three{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0px;
-    line-height: 28px;
+    letter-spacing: 0rem;
+    line-height: 2.8rem;
     white-space: pre-line;
-    max-width: 630px;
-    margin-bottom: 40px;
+    max-width: 63rem;
+    margin-bottom: 4rem;
     display: block;
     box-sizing: border-box;
 }
@@ -281,24 +284,24 @@ body{
     position: relative;
     pointer-events: auto;
     text-align: center;
-    padding: 20px 65px;
+    padding: 2rem 6.5rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 400px;
-    font-size: 24px;
+    width: 40rem;
+    font-size: 2.4rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    border-radius: 40px;
+    letter-spacing: 0.04rem;
+    line-height: 3rem;
+    border-radius: 4rem;
     cursor: pointer;
-    margin-top: 58px;
+    margin-top: 5.8rem;
 }
 .fifth_scroll{
     background-color: rgb(90, 30, 203);
     color: rgb(248, 248, 248);
     width: 75%;
     position: relative;
-    padding: 240px 200px 180px;
+    padding: 24rem 20rem 18rem;
     background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/security-bg.jpg);
     background-size: 100%r;
     display: flex;
@@ -307,34 +310,34 @@ body{
     justify-content: space-between;
 }
 .text_four{
-    font-size: 100px;
+    font-size: 10rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -3.15px;
-    line-height: 96px;
+    letter-spacing: -0.315rem;
+    line-height: 9.6rem;
     white-space: pre-line;
     opacity: 0.9;
     display: block;
     box-sizing: border-box;
 }
 .text_five{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -0.2px;
-    line-height: 38px;
+    letter-spacing: -0.02rem;
+    line-height: 3.8rem;
     white-space: pre-line;
-    max-width: 630px;
-    margin-top: 16px;
+    max-width: 63rem;
+    margin-top: 1.6rem;
     display: block;
     box-sizing: border-box;
 }
 .text_six{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0px;
-    line-height: 28px;
+    letter-spacing: 0rem;
+    line-height: 2.8rem;
     white-space: pre-line;
-    max-width: 630px;
-    margin-bottom: 40px;
+    max-width: 63rem;
+    margin-bottom: 4rem;
     display: block;
     box-sizing: border-box;
 }
@@ -346,17 +349,17 @@ body{
     position: relative;
     pointer-events: auto;
     text-align: center;
-    padding: 20px 65px;
+    padding: 2rem 6.5rem;
     background-color: white;
     color: black;
-    width: 350px;
-    font-size: 24px;
+    width: 35rem;
+    font-size: 2.4rem;
     font-family: Gilroy_Bold;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    border-radius: 40px;
+    letter-spacing: 0.04rem;
+    line-height: 3rem;
+    border-radius: 4rem;
     cursor: pointer;
-    margin-top: 58px;
+    margin-top: 5.8rem;
 }
 .sixth_scroll{
     background-color: rgb(2, 119, 87);
@@ -364,7 +367,7 @@ body{
     width: 100vw;
     min-height: 90vh;
     position: relative;
-    padding: 240px 200px 250px;
+    padding: 24rem 20rem 25rem;
     background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/trust-bg.jpg);
     background-size: 100%;
     background-position: right bottom;
@@ -379,34 +382,34 @@ body{
     -webkit-box-pack: end;
     justify-content: flex-end;
     width: 100%;
-    font-size: 60px;
+    font-size: 6rem;
     font-family: Gilroy_Bold;
-    letter-spacing: -1.15px;
-    line-height: 64px;
+    letter-spacing: -0.115rem;
+    line-height: 6.4rem;
     white-space: pre-line;
     opacity: 0.9;
     box-sizing: border-box;
 }
 .text_eight{
     width: 100%;
-    margin-left: 30px;
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: end;
     justify-content: flex-end;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: myFirstFont;
-    letter-spacing: 0px;
-    line-height: 28px;
-    margin-top: 20px;
-    max-width: 550px;
+    letter-spacing: 0rem;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    max-width: 55rem;
 }
 .text_eight_one{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .text_eight_two{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .seventh_scroll{
@@ -420,7 +423,7 @@ body{
 }
 .seven_box{
     color: rgb(255, 255, 255);
-    padding: 200px;
+    padding: 20rem;
     font-family: Gilroy_Bold;
     white-space: pre-line;
     display: flex;
@@ -433,62 +436,62 @@ body{
     justify-content: center;
 }
 .upper_right{
-    padding-right: 75px;
+    padding-right: 7.5rem;
     display: block;
 }
 .upper_right_top{
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    padding-bottom: 48px;
+    padding-bottom: 4.8rem;
 }
 p{
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
 }
 .rating_one{
-    font-size: 160px;
-    line-height: 120px;
-    padding-right: 16px;
+    font-size: 16rem;
+    line-height: 12rem;
+    padding-right: 1.6rem;
     opacity: 0.9;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 .platform_one{
-    font-size: 60px;
-    line-height: 55px;
-    padding-left: 16px;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    padding-left: 1.6rem;
     color: rgb(236, 233, 234);
     opacity: 0.9;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 .upper_right img{
-    padding-bottom: 48px;
+    padding-bottom: 4.8rem;
     display: block;
-    width: 179px;
-    height: 28px;
+    width: 17.9rem;
+    height: 2.8rem;
 }
 .sixth_button{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: Gilroy_Bold;
-    font-size: 20px;
-    padding: 15px 0px;
-    width: 310px;
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+    width: 31rem;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    border-radius: 48px;
+    border-radius: 4.8rem;
     -webkit-box-pack: center;
     justify-content: center;
     cursor: pointer;
 }
 .upper_left{
-    padding-left: 100px;
+    padding-left: 10rem;
     display: block;
 }
 .upper-left_top{
@@ -496,46 +499,46 @@ p{
     align-items: center;
 }
 .rating_two{
-    font-size: 160px;
-    line-height: 120px;
-    padding-right: 16px;
+    font-size: 16rem;
+    line-height: 12rem;
+    padding-right: 1.6rem;
     opacity: 0.9;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 .platform_two{
-    font-size: 60px;
-    line-height: 55px;
-    padding-left: 16px;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    padding-left: 1.6rem;
     color: rgb(236, 233, 234);
     opacity: 0.9;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 .upper_left img{
-    padding-bottom: 60px;
-    width: 179px;
-    height: 28px;
+    padding-bottom: 6rem;
+    width: 17.9rem;
+    height: 2.8rem;
 }
 .seventh_button{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: Gilroy_Bold;
-    font-size: 20px;
-    padding: 15px 0px;
-    width: 310px;
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+    width: 31rem;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    border-radius: 48px;
+    border-radius: 4.8rem;
     -webkit-box-pack: center;
     justify-content: center;
     cursor: pointer;
 }
 .seven_lower{
-    height: 400px;
-    width: 900px;
-    margin: 60px auto 0px;
+    height: 40rem;
+    width: 90rem;
+    margin: 6rem auto 0rem;
     overflow: hidden;
     display: flex;
 }
@@ -544,16 +547,285 @@ p{
     font-family: myFirstFont;
     min-width: 100%;
     max-width: 100%;
-    padding: 16px;
+    padding: 1.6rem;
 }
 .review{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 3rem;
     font-family: myFirstFont;
 }
 .person{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     font-family: Gilroy_Bold;
     display: block;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px){
+.body{
+    font-variant-ligatures: none;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: env(safe-area-inset-top);
+    overflow-x: hidden;
+}
+  .top {
+      padding: 60px;
+      background-color: black;
+      box-sizing: border-box;
+  }
+
+  .second_scroll{
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+        min-height: 1150px;
+        width: 80vw;
+        padding: 10rem 5rem 5rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+  }
+  .second_scroll h6{
+    margin-bottom: 20px;
+}
+  .third_button{
+    padding: 2rem 6.5rem;
+    margin-bottom: 50px;
+  }
+  .third_scroll{
+    padding: 60px 40px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(33, 36, 38);
+    width: 80vw;
+    position: relative;
+    display: block;
+  }
+  .third_scroll h5{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .fourth_scroll{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg);
+    padding: 195px 40px 90px;
+    background-position: right center;
+    min-height: 1350px;
+    width: 80vw;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+  .text_one{
+    font-size: 65px;
+    font-family: Gilroy_Bold;
+    letter-spacing: -1.95px;
+    line-height: 58px;
+  }
+  .text_two{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-top: 26px;
+  }
+  .text_three{
+    font-family: myFirstFont;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    margin-top: 75px;
+  }
+  .fourth_button{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    padding: 16px 24px;
+    cursor: none;
+    width: 27rem;
+  }
+  .fifth_scroll{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg);
+    background-size: cover;
+    padding: 195px 40px 90px;
+    min-height: 1150px;
+    background-position: right center;
+    width: 80vw;
+  }
+  .text_four{
+    font-size: 65px;
+    font-family: Gilroy_Bold;
+    letter-spacing: -1.95px;
+    line-height: 58px;
+  }
+  .text_five{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+  }
+  .text_six{
+    font-family: myFirstFont;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+  .fifth_button{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    padding: 16px 24px;
+    cursor: none;
+    width: 22rem;
+  }
+  .sixth_scroll{
+    flex-direction: column;
+    padding: 70px 40px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
+    width: 80vw;
+  }
+  .text_seven{
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .text_eight{
+    margin-left: 0px;
+    width: 100%;
+    font-size: 15px;
+    font-family: myFirstFont;
+    line-height: 24px;
+  }
+  .seventh_scroll{
+    padding: 70px 40px;
+    width: 80vw;
+  }
+  .seven_box{
+    overflow-y: hidden;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+  }
+  .seven_upper{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .upper_right{
+    padding-right: 0px;
+    text-align: center;
+  }
+  .upper_right_top{
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+  .rating_one{
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .platform_one{
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .upper_left{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .upper-left_top{
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+  .rating_two{
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .platform_two{
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .seven_lower{
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .lower_box{
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .review{
+    font-size: 17px;
+    line-height: 26px;
+    padding-bottom: 28px;
+  }
+  .person{
+    line-height: 26px;
+  }
+  .one{
+    flex-grow: 1;
+    justify-content: left;
+    align-self: left;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.one img{
+    width: 120px;
+    height: 70px;
+}
+.two{
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+    padding-right: 20px;
+    font-size: 15px;
+}
+.three{
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.top_button{
+    flex-grow: 1;
+    font-family: Gilroy_Bold;
+    font-weight: bolder;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0.1rem solid white;
+    border-radius: 2.5rem;
+    margin: 1.2rem 2rem;
+}
+.first_scroll{
+    padding-left: 0rem;
+    height: 450px;
+    position: relative;
+}
+.image_one{
+    width: 170px;
+}
+.image_two{
+    width: 170px;
+}
+.image_three{
+    width: 170px;
+}
+.image_four{
+    width: 170px;
+}
+.image_five{
+    width: 170px;
+}
 }
